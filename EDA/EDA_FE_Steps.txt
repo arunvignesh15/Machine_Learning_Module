@@ -39,7 +39,7 @@ Step 1. EDA - Exploratory Data Analysis
 		g. Plot count distribution of categorical data - histogram/box-plot
 		
 Step 2. Handling Missing Values
-		a. Mean/ Median/ Mode replacement
+		a. Mean/ Median/Mode replacement
 		b. Random Sample Imputation
 		c. Capturing NAN values with a new feature
 		d. End of Distribution imputation
@@ -90,6 +90,7 @@ Approach 4: Random-forest Importance
 
 Approach 5: Decision Tree Feature election
 
+Approach 6: P Value
 
 
 Plot
@@ -147,7 +148,3 @@ lower_lim = data['column'].quantile(.05)
 
 data.loc[(df[column] > upper_lim),column] = upper_lim
 data.loc[(df[column] < lower_lim),column] = lower_lim
-
-
-
-to check how its working ...
