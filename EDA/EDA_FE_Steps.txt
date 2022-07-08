@@ -37,7 +37,7 @@ Step 1. EDA - Exploratory Data Analysis
 		e. Check outlier values
 		f. Plot distribution of numeric data (univariate and pairwise joint distribution) - different graphs
 		g. Plot count distribution of categorical data - histogram/box-plot
-		
+		xfbbhfsgbf;bklp;fl[;p[]bl;d[b;
 Step 2. Handling Missing Values
 		a. Mean/ Median/Mode replacement
 		b. Random Sample Imputation
@@ -52,7 +52,7 @@ Step 3: Handling Outliers
 
 		Solution:
 		An Outlier Dilemma: Drop or Cap
-		
+		plosk;dlg';sdlg;]l';b'dl'f;
 Step 4: Handling Imbalance Datasets
 		a. SMOTE - Synthetic Minority Over-sampling Technique
 
@@ -81,7 +81,7 @@ Step 6: Normalization and Standardization
 General outline for Feature Selection
 =====================================
 Approach 1: Correlation
-
+afhnakfjkmpolkejfgolewkgl;[k;dsflg;k;l;lfrg
 Approach 2: Forward Elimination
 
 Approach 3: Backward Elimination
@@ -110,7 +110,9 @@ Box plots are a standardized way of displaying the distribution of data based on
  * median
  * third quartile (Q3)
  * maximum
- 
+
+kjksdm[lokwpo[gklplk][l;[pwog[pk]]w[plgp[rwolg[r
+plkwpeglp[]weolg[;[]gwegh
 IQR= Q3-Q1
 
 Box-plot is used to identify the outlier values.
@@ -150,6 +152,9 @@ data.loc[(df[column] > upper_lim),column] = upper_lim
 data.loc[(df[column] < lower_lim),column] = lower_lim
 
 this is my end of file...
+
+
+changing the last line
 
 \
 
